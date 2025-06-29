@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadgets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!--
+  This is the products page for Gadget Galaxy, showcasing various tech gadgets available for purchase.
+  Each product card includes an image, name, price, and an "Add to Cart" button.
+  The page is designed to be responsive and user-friendly.<!-->
+<body>
+  <header>
+    <h1>Gadget Galaxy</h1>
+
+ <nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="products.html">Gadgets</a>
+  <a href="cart.html">Cart</a>
+</nav>
+
+
+  </header>
+
+  <div class="product-container">
+
+    <div class="product-card">
+      <img src="./images/smart watch.jpg" alt="Smartwatch">
+      <h3>Smartwatch</h3>
+      <p>R899</p>
+      <button onclick="addToCart('Smartwatch', 899)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/wireless earbud.webp" alt="Wireless Earbuds">
+      <h3>Wireless Earbuds</h3>
+      <p>R499</p>
+      <button onclick="addToCart('Wireless Earbuds', 499)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/power bank.webp" alt="Power Bank">
+      <h3>Power Bank</h3>
+      <p>R999</p>
+      <button onclick="addToCart('Power Bank', 999)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="./images/bluetooth speaker.png" alt="Bluetooth Speaker">
+      <h3>Bluetooth Speaker</h3>
+      <p>R350</p>
+      <button onclick="addToCart('Bluetooth Speaker', 350)">Add to Cart</button>
+    </div>
+
+     <div class="product-card">
+      <img src="./images/tablet.webp" alt="Tablet">
+      <h3>Tablet</h3>
+      <p>R599</p>
+      <button onclick="addToCart('Bluetooth Speaker', 599)">Add to Cart</button>
+    </div>
+      
+    <div class="product-card">
+      <img src="./images/fast charger.webp" alt="fast charger">
+      <h3>Smartphone</h3>
+      <p>R579</p>
+      <button onclick="addToCart('Smartphone', 579)">Add to Cart</button>
+      </div>
+
+    
+  </div>
+
+
+  <footer>
+    <p>&copy; 2025 Gadget Galaxy</p>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>
