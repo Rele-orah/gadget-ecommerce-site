@@ -74,7 +74,7 @@ footer {
 /* Products */
 .product-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* ✅ Forces exactly 3 items per row */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 30px;
   padding: 20px;
   max-width: 1200px;
@@ -84,23 +84,23 @@ footer {
 
 .product-card img {
   width: 100%;
-  aspect-ratio: 1 / 1; /* Makes all images square */
-  object-fit: contain; /* Shows full image, doesn't crop */
-  background-color: #fff; /* Fills empty space */
+  aspect-ratio: 1 / 1; 
+  object-fit: contain; 
+  background-color: #fff; 
   border-radius: 8px;
   display: block;
-  padding: 10px; /* optional */
+  padding: 10px; 
 }
 
 @media screen and (max-width: 900px) {
   .product-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media screen and (max-width: 600px) {
   .product-container {
-    grid-template-columns: 1fr; /* 1 per row on phones */
+    grid-template-columns: 1fr; 
   }
 }
 
